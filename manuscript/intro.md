@@ -14,6 +14,7 @@ While looking at the book compare it with the source [in GitHub](https://github.
 
 I am writing this book in plain text file using the Markua format. The Webhook in GitHub configure to autopublish the book, so every time I push out some changes the book is published with a minute or so.
 
+Be warned though, while there will be working examples here, it is quite likely that this book will include lot os examples that don't work. They will also include the dates when I've asked about them and submitted the bug report. When these items are fixed or as I find work-arounds for them, this book will be updated accordingly.
 
 ## Table
 
@@ -32,6 +33,7 @@ Copied from [the Markua specification](https://leanpub.com/markua/read#tables)
 | Footer A   | Footer B   | Footer C   |
 |============|============|============|
 
+Tables like this seem to work in PDF and HTML (where I checked) but LeanPub complains for epub with `attribute "type" not allowed here`. (2018.10.12)
 
 ### An embedded table without footer
 
@@ -66,7 +68,7 @@ The image is missing on purpose so you can see how it is displayed. In the e-mai
 
 ## Verbatim text
 
-As I understand, [the spec indicates](https://leanpub.com/markua/read#code) that line-numbers default to `false` however in LeabPub it seems to be dependent on the `theme` that you can configure in `https://leanpub.com/YOUR-BOOK/theme`. All 3 default themes have `line-numbers` set to `true`, but you can create a custom theme and set the `line-numbers` to default to `false`.
+As I understand, [the spec indicates](https://leanpub.com/markua/read#code) that line-numbers default to `false` however in LeabPub it seems to be dependent on the `theme` that you can configure in `https://leanpub.com/YOUR-BOOK/theme`. All 3 default themes have `line-numbers` set to `true`, but you can create a custom theme and set the `line-numbers` to default to `false`. (2018.10.05)
 
 ```
 first line
