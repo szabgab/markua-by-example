@@ -36,3 +36,12 @@ Copied from [the MArkua specification](https://leanpub.com/markua/read#tables)
 
 ![](tbl/some_table.tbl)
 
+
+## Images
+
+### Missing image
+
+![](img/some_image.png)
+
+
+The End
