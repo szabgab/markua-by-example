@@ -17,7 +17,7 @@ I am writing this book in plain text file using the Markua format. The Webhook i
 
 ## Table
 
-### A table
+### An embedded table
 
 Copied from [the Markua specification](https://leanpub.com/markua/read#tables)
 
@@ -33,7 +33,7 @@ Copied from [the Markua specification](https://leanpub.com/markua/read#tables)
 |============|============|============|
 
 
-### Table without footer
+### An embedded table without footer
 
 {type: table}
 |============|============|============|
@@ -46,13 +46,15 @@ Copied from [the Markua specification](https://leanpub.com/markua/read#tables)
 
 ### A missing external table 
 
+The file should be located in `manuscript/resources/tbl/some_table.tbl`, but the file does not exist. It seems that Leabpub silently ignores this. Does not complain about the missing file. (2018.10.12)
+
 ![](tbl/some_table.tbl)
 
 ### An existing external table 
 
 ![](tbl/first.tbl)
 
-It is located at `manuscript/resources/tbl/first.tbl`.
+It is located at `manuscript/resources/tbl/first.tbl`. LeanPub finds and includes the file, but it seems it does not recognize the `.tbl` extension properly and includes it as plain text. (2018.10.12)
 
 ## Images
 
@@ -60,6 +62,7 @@ It is located at `manuscript/resources/tbl/first.tbl`.
 
 ![](img/some_image.png)
 
+The image is missing on purpose so you can see how it is displayed. In the e-mail notification you get from LeanPub it will include a warning about the missing image.
 
 ## Verbatim text
 
