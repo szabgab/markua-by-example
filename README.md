@@ -1,6 +1,4 @@
 # Markua by Example
 
-[Markua by Example](https://leanpub.com/markua-by-example)
-
-[Markua](https://leanpub.com/markua)
+The source of this book: [Markua by Example](https://leanpub.com/markua-by-example)
 

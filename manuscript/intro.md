@@ -1,13 +1,14 @@
 # Introduction
 
 This book includes examples using [Markua](https://leanpub.com/markua).
-I am using this as a playground to see how to add elements to my books and to be able to ask questions and submit bug-reports where something does not work out.
+I am using this as a playground to see how to add elements to my books. This also makes it easier to to ask questions and submit bug-reports where something does not work out. The source of this book can be found [in GitHub](https://github.com/szabgab/markua-by-example).
+If you'd like to support my effort to make Markua more accessible, you can purchase this book, or any of my [other book](https://leanpub.com/u/szabgab), or you can [support me on Patreon](https://www.patreon.com/szabgab).
 
 ## Table
 
 ### A table
 
-Copied from [the MArkua specification](https://leanpub.com/markua/read#tables)
+Copied from [the Markua specification](https://leanpub.com/markua/read#tables)
 
 {type: table}
 |============|============|============|
@@ -36,6 +37,11 @@ Copied from [the MArkua specification](https://leanpub.com/markua/read#tables)
 
 ![](tbl/some_table.tbl)
 
+### An existing external table 
+
+![](tbl/first.tbl)
+
+It is located at `manuscript/resources/tbl/first.tbl`.
 
 ## Images
 
@@ -43,5 +49,14 @@ Copied from [the MArkua specification](https://leanpub.com/markua/read#tables)
 
 ![](img/some_image.png)
 
+
+## Verbatim text
+
+As I understand, [the spec indicates](https://leanpub.com/markua/read#code) that line-numbers default to `false` however in LeabPub it seems to be dependent on the `theme` that you can configure in `https://leanpub.com/YOUR-BOOK/theme`. All 3 default themes have `line-numbers` set to `true`, but you can create a custom theme and set the `line-numbers` to default to `false`.
+
+```
+first line
+second line
+```
 
 The End
