@@ -10,6 +10,11 @@ If you'd like to support my effort to make Markua more accessible, you can purch
 While looking at the book compare it with the source [in GitHub](https://github.com/szabgab/markua-by-example) to see what generates each secion.
 
 
+## Notes
+
+I am writing this book in plain text file using the Markua format. The Webhook in GitHub configure to autopublish the book, so every time I push out some changes the book is published with a minute or so.
+
+
 ## Table
 
 ### A table
