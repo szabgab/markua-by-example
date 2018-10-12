@@ -1,8 +1,14 @@
+{sample: true, id: introduction}
 # Introduction
 
 This book includes examples using [Markua](https://leanpub.com/markua).
 I am using this as a playground to see how to add elements to my books. This also makes it easier to to ask questions and submit bug-reports where something does not work out. The source of this book can be found [in GitHub](https://github.com/szabgab/markua-by-example).
 If you'd like to support my effort to make Markua more accessible, you can purchase this book, or any of my [other book](https://leanpub.com/u/szabgab), or you can [support me on Patreon](https://www.patreon.com/szabgab).
+
+## How to use this book?
+
+While looking at the book compare it with the source [in GitHub](https://github.com/szabgab/markua-by-example) to see what generates each secion.
+
 
 ## Table
 
