@@ -79,4 +79,27 @@ first line
 second line
 ```
 
-The End
+## Referenced resource could not be found in the EPUB
+
+Although your book was generated successfully, we found the following errors:
+
+We found the following problems with your epub file:\n
+- Referenced resource could not be found in the EPUB.
+
+This error message was sent to me by Leanpub in the e-mail. (reported on 2018.03.16, still the case on 2019.04.21)
+
+It was caused by an incorrect link that was written like this:
+
+```
+[title](anchor)
+```
+
+instead of
+
+```
+[title](#anchor)
+```
+
+## The End
+
+It is really the End
