@@ -16,6 +16,10 @@ I am writing this book in plain text file using the Markua format. The Webhook i
 
 Be warned though, while there will be working examples here, it is quite likely that this book will include lot os examples that don't work. They will also include the dates when I've asked about them and submitted the bug report. When these items are fixed or as I find work-arounds for them, this book will be updated accordingly.
 
+## Book cover
+
+Add a file called `manuscript/resources/title_page.png`. That will be used as the cover-page of your book.
+
 ## Table
 
 ### An embedded table
@@ -46,13 +50,13 @@ Tables like this seem to work in PDF and HTML (where I checked) but LeanPub comp
 | Content A2 | Content B2 | Content C2 |
 |============|============|============|
 
-### A missing external table 
+### A missing external table
 
 The file should be located in `manuscript/resources/tbl/some_table.tbl`, but the file does not exist. It seems that Leabpub silently ignores this. Does not complain about the missing file. (2018.10.12)
 
 ![](tbl/some_table.tbl)
 
-### An existing external table 
+### An existing external table
 
 ![](tbl/first.tbl)
 
