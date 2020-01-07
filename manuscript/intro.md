@@ -99,18 +99,31 @@ instead of
 ```
 [title](#anchor)
 ```
+## Various titles:
 
-## .example
+### .example
 
 Title with leading dot
 
+### ].close
 
-## [].insert
+closing
+
+### ].open
+
+opening
+
+### after[]
+
+Title with square brackets at the end
+
+
+### [].insert
 
 Title with square brackets
 
 
-## \[\].append
+### \[\].append
 
 Title with escaped square brackets
 
