@@ -135,6 +135,10 @@ Title with quoted square brackets
 
 Title with backtick-quoted square brackets
 
+## `[].another_quoted`
+
+h2
+
 ## The End
 
 It is really the End
