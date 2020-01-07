@@ -100,6 +100,14 @@ instead of
 [title](#anchor)
 ```
 
+## [].insert
+
+Title with square brackets
+
+## \[\].append
+
+Title with escaped square brackets
+
 ## The End
 
 It is really the End
