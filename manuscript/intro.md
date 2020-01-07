@@ -100,13 +100,14 @@ instead of
 [title](#anchor)
 ```
 
+## .example
+
+Title with leading dot
+
+
 ## [].insert
 
 Title with square brackets
-
-## .insert
-
-Title with leading dot
 
 
 ## \[\].append
