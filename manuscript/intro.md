@@ -127,6 +127,10 @@ Title with square brackets
 
 Title with escaped square brackets
 
+### "[].quoted"
+
+Title with quoted square brackets
+
 ## The End
 
 It is really the End
