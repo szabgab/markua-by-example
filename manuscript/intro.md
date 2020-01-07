@@ -104,6 +104,11 @@ instead of
 
 Title with square brackets
 
+## .insert
+
+Title with leading dot
+
+
 ## \[\].append
 
 Title with escaped square brackets
